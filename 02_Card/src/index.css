@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  width: 100%;
+  min-height: 100vh;
+  background-color: #eeeded;
+  font-family: 'Poppins', sans-serif;
+  /* display: flex;  */
+  /* flex-wrap: wrap; */
+  padding: 40px;
+
+}
+#root{
+  display: flex;
+  flex-wrap: wrap;
+  gap: 40px;
+
+}
+
+.main{
+  width: 350px;
+  height: 400px;
+  /* border: 2px solid; */
+  padding: 20px;
+  border-radius: 20px;
+  background-color: white;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  transition: all 0.5s;
+}
+
+.main:hover{
+  scale: 1.1;
+}
+
+.top{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: relative;
+
+  & img{
+    width: 50px;
+    height: 50px;
+    object-fit:cover;
+    padding: 1px;
+    border-radius: 50%;
+    /* border: 1px solid; */
+    box-shadow: 0px 0px 3px black;
+  }
+  & button{
+    padding: 4px 6px;
+    position: absolute;
+    right: 0;
+    top: 0;
+    background-color: #eeeded;
+    border: none;
+    font-size: 1rem;
+    border-radius: 5px;
+  }
+}
+
+.middle{
+
+  margin-top: 25px;
+  & h3{
+    font-size: 1.3rem;
+    font-weight: 600;
+    & span{
+      font-size: 0.8rem;
+      color: #7a7878;
+    }
+
+  }
+  & h2{
+    font-weight: 700;
+  }
+  & div{
+    display: flex;
+    gap: 10px;
+    margin-top: 10px;
+    & p{
+      background-color: #eeeded;
+      border-radius: 5px;
+      padding: 1px 10px;
+      font-size: 0.8rem;
+      font-weight: 500;
+    }
+  }
+}
+
+.bottom{
+display: flex;
+align-items: center;
+justify-content: space-between;
+border-top: 2px solid #eeeded;
+padding-top: 20px;
+
+& div {
+  & p:nth-of-type(1){
+    font-weight: 600;
+    font-size: 1.1rem;
+  }
+  & p:nth-of-type(2){
+    font-size: 0.8rem;
+    color: #7a7878;
+
+  }
+}
+
+& button{
+  border: none;
+  background-color: black;
+  color: white;
+  padding: 6px 10px;
+  border-radius: 8px;
+  font-size: 1rem;
+  cursor: pointer;
+}
+}
