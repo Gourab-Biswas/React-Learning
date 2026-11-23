@@ -1,13 +1,12 @@
 import React from 'react'
+import Lefttext from './Lefttext'
+import Leftarrow from './Leftarrow'
 
 const Leftcontent = () => {
   return (
     <div className='Leftcontent'>
-        <div className='left-text'>
-            <h1>Prospective <br /> customer <br /> segmentation</h1>
-            <h4>Depending on customer satisfaction <br /> and access to banking products, <br /> potential target audience can be <br /> divided into three groups</h4>
-        </div>
-        <div className='left-arrow'><i className="ri-arrow-right-up-line"></i></div>
+        <Lefttext/>
+        <Leftarrow/>
     </div>
   )
 }
