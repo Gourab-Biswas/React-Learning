@@ -26,6 +26,7 @@ const App = () => {
         <h1>Write Your Notes</h1>
           <input type="text" 
            autoComplete="off"
+           placeholder="Notes Heading"
            value={title}
            onChange={(e)=>{
             settitle(e.target.value)
@@ -33,6 +34,7 @@ const App = () => {
           <textarea
             name=""
             id=""
+            placeholder="Write Notes Details Hera"
             value={details}
             onChange={(e)=>{
               setdetails(e.target.value)

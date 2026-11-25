@@ -41,7 +41,9 @@ body {
     padding: 15px 30px;
     outline: none;
     border-radius: 10px;
-    border: none;
+    border: 3px solid white;
+    color: white;
+    background-color: transparent;
   }
 
   & textarea{
@@ -50,18 +52,21 @@ body {
     padding: 15px 30px;
     outline: none;
     border-radius: 10px;
-    border: none;
+     border: 3px solid white;
+    color: white;
+    background-color: transparent;
     
   }
   & button{
-    padding: 10px 40px;
-    width: fit-content;
+    padding: 8px 40px;
+    width: fit-content%;
     margin-inline: auto;
-    font-size: 2rem;
-    border-radius: 2rem;
+    font-weight: 600;
+    font-size: 1.5rem;
+    border-radius: 0.7rem;
     cursor: pointer;
-    background-color: #777;
-    color: white;
+    background-color: white;
+    /* color: white; */
     border: 1px solid white;
     &:active{
       background-color: #888;
