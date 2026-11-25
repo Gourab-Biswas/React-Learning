@@ -59,7 +59,7 @@ body {
   }
   & button{
     padding: 8px 40px;
-    width: fit-content%;
+    width: fit-content;
     margin-inline: auto;
     font-weight: 600;
     font-size: 1.5rem;
