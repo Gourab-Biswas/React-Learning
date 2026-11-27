@@ -9,11 +9,13 @@ import Men from './pages/Men'
 import ErrorPage from './pages/ErrorPage'
 import Women from './pages/Women'
 import Details from './pages/Details'
+import Navbar2 from './components/Navbar2'
 
 const App = () => {
   return (
     <>
       <Navbar/>
+      <Navbar2/>
       <Routes>
         <Route path='/' element={<Home/>}/>
         <Route path='/about' element={<About/>}/>
