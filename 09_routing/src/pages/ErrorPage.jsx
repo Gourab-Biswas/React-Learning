@@ -4,7 +4,7 @@ const ErrorPage = () => {
   return (
     <div>
         
-        <h2>404 || File Not Found</h2>
+        <h2 className='er'>404 || File Not Found</h2>
     </div>
   )
 }
